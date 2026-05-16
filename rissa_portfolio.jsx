@@ -241,7 +241,7 @@ const Portfolio = () => {
           transition={{ delay: 0.6, duration: 0.8 }}
           className={`text-lg md:text-xl mb-8 max-w-2xl mx-auto leading-relaxed ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}
         >
-          Transforming businesses through innovative web development, strategic automation, and cutting-edge digital solutions. With 14+ years of expertise in customer success, I blend technical mastery with business acumen.
+          Transforming businesses through innovative web development, industry based strategic digital marketing, strategic automations, and cutting-edge digital solutions. With 14+ years of expertise in customer success, I blend technical mastery with business acumen.
         </motion.p>
 
         <motion.div
@@ -351,9 +351,9 @@ const Portfolio = () => {
                 <h3 className="text-xl font-bold text-purple-400">Key Strengths</h3>
                 {[
                   'Strategic Digital Transformation',
-                  'Full-Stack Web Development',
+                  'Digital Marketing',
                   'Team Leadership & Management',
-                  'Business Process Automation',
+                  'Business Process Automations',
                   'Customer Success Excellence',
                   'Multi-platform Integration'
                 ].map((strength, idx) => (
@@ -384,17 +384,17 @@ const Portfolio = () => {
     const skillCategories = [
       {
         title: 'Web & Development',
-        skills: ['WordPress', 'Elementor', 'HTML/CSS', 'Web Design', 'Squarespace'],
+        skills: ['Gamma', 'Elementor', 'HTML/CSS', 'Web Design', 'GHL', 'MailChimp', 'Instapage', 'Squarespace'],
         color: 'from-blue-500 to-cyan-500'
       },
       {
         title: 'Business Automation',
-        skills: ['Go High Level', 'Zapier', 'Make.com', 'ClickUp', 'AmorCRM'],
+        skills: ['Go High Level', 'Zapier', 'MailChimp', 'Salesforce', 'Jungo', 'Zoho', 'ClickUp', 'AmorCRM'],
         color: 'from-purple-500 to-pink-500'
       },
       {
         title: 'AI & Tools',
-        skills: ['Air.AI', 'ChatBot', 'Brevo', 'Overpass CRM', 'Click Up'],
+        skills: ['Air.AI', 'GHL', 'AI Agents', 'Opus', 'Castmagic', 'VIdyard', 'Claude', 'ChatGPT', 'SendX', 'Instapage', 'Elevenlabs', 'Runway', 'ChatBot', 'Brevo', 'Overpass CRM', 'Click Up'],
         color: 'from-indigo-500 to-purple-500'
       },
       {
@@ -404,12 +404,12 @@ const Portfolio = () => {
       },
       {
         title: 'Design & Marketing',
-        skills: ['Photoshop', 'Graphic Design', 'Canva', 'Social Media Mgmt', 'Content Creation'],
+        skills: ['PhotoRoom', 'Graphic Design', 'Opus', 'Castmagic', 'VIdyard', 'Claude', 'ChatGPT', 'SendX', 'Instapage', 'Elevenlabs', 'Runway', 'Canva', 'Social Media Mgmt', 'Content Creation'],
         color: 'from-pink-500 to-rose-500'
       },
       {
         title: 'Business Management',
-        skills: ['Project Management', 'Production Management', 'Talent Acquisition', 'Team Leadership', 'Cold Calling'],
+        skills: ['Project Management', 'Production Management', 'Marketing System Process', 'Automation Workflow Management', 'Event Coordination Management', 'Campaign Management', 'Talent Acquisition', 'Team Leadership', 'Lead Generation', 'Client Acquisition'],
         color: 'from-green-500 to-emerald-500'
       }
     ];
@@ -428,7 +428,7 @@ const Portfolio = () => {
               Skills & Expertise
             </h2>
             <p className={`text-lg ${isDarkMode ? 'text-gray-400' : 'text-gray-600'}`}>
-              A comprehensive toolkit for modern digital solutions
+              A comprehensive toolkit for Modern Digital Solutions Mastery & Expertise 
             </p>
           </motion.div>
 
@@ -592,32 +592,32 @@ const Portfolio = () => {
       },
       {
         title: 'E-Commerce Management Platform',
-        description: 'Managed 10+ social media accounts and Shopify stores with integrated inventory system',
-        tech: ['Shopify', 'Social Media', 'Content Strategy', 'Growth Hacking'],
+        description: 'Managed 10+ social media accounts and Shopify and eBay stores with integrated inventory system',
+        tech: ['Shopify', 'Social Media', 'Product Inventory', 'Order Processing', 'Logistic Coordination', 'Content Strategy', 'Growth Hacking'],
         image: '🛍️'
       },
       {
         title: 'Lead Generation System',
         description: 'Developed automated lead generation pipeline with appointment scheduling integration',
-        tech: ['ClickUp', 'Go High Level', 'Automation', 'CRM'],
+        tech: ['ClickUp', 'Go High Level', 'Campaign Ads', 'Events Coordiation & Management', 'SendX', 'Salesforce', 'Jungo', 'ZOHO', 'Brevo', 'Active Campaign', 'Automation', 'CRM Management & Reporting'],
         image: '🎯'
       },
       {
         title: 'Website Development & Design',
         description: 'Created professional websites using WordPress, Elementor, and Squarespace',
-        tech: ['WordPress', 'Elementor', 'Web Design', 'UX/UI'],
+        tech: ['WordPress', 'Elementor', 'Web Design', 'GHL', 'MailChimp', 'Gamma', 'InstaPage', 'SquareSpace'],
         image: '🌐'
       },
       {
         title: 'Marketing Automation Campaign',
         description: 'Strategic email marketing and SMS campaigns with personalized automation workflows',
-        tech: ['Brevo', 'Email Marketing', 'SMS', 'Zapier'],
+        tech: ['Brevo', 'GHL','Mailchimp', 'SendX', 'Salesforce', 'Email Marketing', 'SMS', 'Zapier'],
         image: '✉️'
       },
       {
         title: 'Content Management System',
         description: 'Developed and managed multiple content calendars and social media strategies',
-        tech: ['Canva', 'Content Strategy', 'Scheduling', 'Analytics'],
+        tech: ['Canva', 'Elevenlabs', 'Runway', 'Instapage', 'Opus','Content Strategy', 'Ads Creation', 'Capcut', 'Scheduling', 'Analytics'],
         image: '📱'
       }
     ];
@@ -689,7 +689,7 @@ const Portfolio = () => {
     const services = [
       {
         title: 'Web Development',
-        description: 'Custom websites and e-commerce platforms using modern technologies',
+        description: 'Custom websites, landing pages, strategic funnels and e-commerce platforms using modern technologies',
         icon: '💻'
       },
       {
@@ -699,7 +699,7 @@ const Portfolio = () => {
       },
       {
         title: 'Digital Marketing',
-        description: 'Email campaigns, social media management, and growth strategies',
+        description: 'Email campaigns, business growth strategy, content data analysis, social media management, and pipeline growth strategies',
         icon: '📈'
       },
       {
@@ -781,13 +781,14 @@ const Portfolio = () => {
             Let's Connect
           </h2>
           <p className={`text-lg ${isDarkMode ? 'text-gray-400' : 'text-gray-600'}`}>
-            Ready to discuss your next project or opportunity
+            Let's discuss your next project or opportunity to scale.
           </p>
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-8 mb-12">
           {[
             { icon: Mail, label: 'Email', value: 'purplepinkcotton@gmail.com', link: 'mailto:purplepinkcotton@gmail.com' },
+            { icon: Mail, label: 'Email', value: 'iamzabadozh@gmail.com', link: 'mailto:iamzabadozh@gmail.com' }
             { icon: Phone, label: 'Phone', value: '+63 953 854 7179', link: 'tel:+639538547179' }
           ].map((contact, idx) => (
             <motion.a
@@ -830,7 +831,7 @@ const Portfolio = () => {
           {[
             { icon: Linkedin, label: 'LinkedIn', link: '#' },
             { icon: Github, label: 'GitHub', link: '#' },
-            { icon: Mail, label: 'Email', link: 'mailto:purplepinkcotton@gmail.com' }
+            { icon: Mail, label: 'Email', link: 'mailto:iamzabadozh@gmail.com' }
           ].map((social, idx) => (
             <motion.a
               key={idx}
@@ -895,10 +896,10 @@ const Portfolio = () => {
     >
       <div className="max-w-6xl mx-auto text-center">
         <p className={`${isDarkMode ? 'text-gray-400' : 'text-gray-600'}`}>
-          © 2024 Rissa Anne Gaspe. All rights reserved.
+          © 2026 Rissa Anne Gaspe. All rights reserved.
         </p>
         <p className={`text-sm mt-2 ${isDarkMode ? 'text-gray-500' : 'text-gray-700'}`}>
-          Crafted with passion | Designed for excellence
+          Crafted With Passion | Designed For Excellence
         </p>
       </div>
     </motion.footer>
